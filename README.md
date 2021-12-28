@@ -17,6 +17,11 @@ In this phase, a team is needed to capture images and generate fake images from 
 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
 
+![1](https://user-images.githubusercontent.com/54838730/147593500-59b9eb65-d7a4-4f1b-9ca2-c04b13632741.jpg) | 
+
+https://user-images.githubusercontent.com/54838730/147593440-c227cbe7-25b9-4c12-937c-e14cfa99a23b.mp4
+
+
 ### Second round: Deepfake Detection:
 In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided as: ........ A team can also create a new detection mechanism. Detailed steps are given as:
 1. From each video generated in FOM and originally captured ones, extract maximum of 5 frames.
