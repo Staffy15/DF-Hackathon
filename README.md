@@ -1,6 +1,8 @@
 # IDFD-Challenge
 ## Indian DeepFake Detection Challenge
 
+Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD.
+
 
 ## Overview
 Deepfake refers to facially manipulated images and vidoes of people. The technology is growing fast and is a greatest threat to the dignity of common man. With advancement in AI technology, deepfake creation techniques are also improving. Since this creation and detection is a two-party game which is never going to end, we are organizing a competition to provide a benchmark this game between user-friendly generation techniques and most efficient detection techniques for the same. The outcome of this competition would be a set of Indian deepfakes which will help the research community and a detection technique for the generated dataset.
@@ -11,15 +13,14 @@ Deepfake refers to facially manipulated images and vidoes of people. The technol
 In this phase, a team is needed to capture images and generate fake images from them using the given code. 
 1. Collect samples of real images and 3-second videos of different subjects. Each image and video must exhibit face area of single person, positioned at centre position. No two teams should have same set of images/videos or images/videos of same subject. For each subject, maximum 50 images and 50 videos are allowed. 
 2. Generate deepfake videos and images through below given methods: 
-   - **FOM**: First Order Motion Model [1] (Refer https://colab.research.google.com/drive/1cniN2Tm9yqmZE6XfDtMzLVSouY1e7S7e?usp=sharing). Sample dataset is also provided with the 
-              code. For detailed information refer to original github: https://github.com/AliaksandrSiarohin/first-order-model
-   - **FaceApp**: Install Mobile Application, FaceApp [2] and use feature FaceSwap there. Input different pairs of images as source and target image.
+   - **FOM**: First Order Motion Model [1] ([Here](https://colab.research.google.com/drive/1cniN2Tm9yqmZE6XfDtMzLVSouY1e7S7e?usp=sharing) is a colab file to generate data). Sample dataset is also provided with                 the code. For detailed information refer to original github: https://github.com/AliaksandrSiarohin/first-order-model
+   - **FaceApp**:Install Mobile Application, FaceApp [2] and use feature FaceSwap there. Input different pairs of images as source and target image.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54838730/147633573-414c347f-aca4-4335-97a9-c66e75226795.png" />
+</p>
 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
-
-![faceapp](https://user-images.githubusercontent.com/54838730/147631199-0475f284-527f-4995-848a-fd6207664103.png)
-
-
 
 ### Second round: Deepfake Detection:
 In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided as: ........ A team can also create a new detection mechanism. Detailed steps are given as:
