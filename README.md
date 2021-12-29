@@ -17,9 +17,8 @@ In this phase, a team is needed to capture images and generate fake images from 
 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
 
-![1](https://user-images.githubusercontent.com/54838730/147593500-59b9eb65-d7a4-4f1b-9ca2-c04b13632741.jpg) | 
+![faceapp](https://user-images.githubusercontent.com/54838730/147631199-0475f284-527f-4995-848a-fd6207664103.png)
 
-https://user-images.githubusercontent.com/54838730/147593440-c227cbe7-25b9-4c12-937c-e14cfa99a23b.mp4
 
 
 ### Second round: Deepfake Detection:
