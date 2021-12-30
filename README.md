@@ -1,7 +1,10 @@
 # IDFD-Challenge
-## Indian DeepFake Detection Challenge
+## Indian DeepFake Detection Challenge 
+Hosted by DIC, UIET, Panjab University, Chandigarh
 
-Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD.
+(Start Date:           , End Date:      )
+
+Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD. Only registered participants will be able to see shared data.
 
 
 ## Overview
@@ -15,7 +18,7 @@ In this phase, a team is needed to capture images and generate fake images from 
 2. Generate deepfake videos and images through below given methods: 
    - **FOM**: First Order Motion Model [1] ([Here](https://colab.research.google.com/drive/1cniN2Tm9yqmZE6XfDtMzLVSouY1e7S7e?usp=sharing) is a colab file to generate data). Sample dataset is also provided with the code. For detailed information refer to original github: https://github.com/AliaksandrSiarohin/first-order-model
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54838730/147690041-869fd427-2826-4c6b-9d45-1717c6fde1db.gif) | ![equal drawio (3)](https://user-images.githubusercontent.com/54838730/147691508-3937a775-e4c9-4b41-b691-09ba404b3282.png) | ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54838730/147690060-ca5c4822-d2af-4e11-a844-b0ce933360d9.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54838730/147690041-869fd427-2826-4c6b-9d45-1717c6fde1db.gif) ![equal drawio (3)](https://user-images.githubusercontent.com/54838730/147691508-3937a775-e4c9-4b41-b691-09ba404b3282.png) ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54838730/147690060-ca5c4822-d2af-4e11-a844-b0ce933360d9.gif)
    - **FaceApp**:Install Mobile Application, FaceApp [2] and use feature FaceSwap there. Input different pairs of images as source and target image.
 
 <p align="center">
@@ -25,13 +28,13 @@ In this phase, a team is needed to capture images and generate fake images from 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
 
 ### Second round: Deepfake Detection:
-In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided as: ........ A team can also create a new detection mechanism. Detailed steps are given as:
+In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided [here](https://colab.research.google.com/drive/1gvWIA3YrpmQlOmCSDabMVcScM_nMAQWz?usp=sharing). A team can also create a new detection mechanism. Detailed steps are given as follows:
 1. From each video generated in FOM and originally captured ones, extract maximum of 5 frames.
 2. Generate two sets 
    - **Dataset 1:** FOM + Real image dataset
    - **Dataset 2:** FaceApp + Real image dataset 
 3. Crop out the facial part from each image of both datasets using MTCNN classifier.
-4. Try every model with both datasets separately. Select the model and respective parameters that work well for both datasets separately. 
+4. Try every model with both datasets separately. Select the model and respective parameters that work well for both datasets separately.  
 5. Share the best trained models with final notebooks that contain results. We will test the trained model on private test set. Winner is selected based on the results on private test set.
 
 ## Competition Rules:
@@ -43,4 +46,4 @@ In this phase, selected teams from first round would have to train existing deep
 
 ## References
 1. Siarohin, A., Lathuilière, S., Tulyakov, S., Ricci, E., & Sebe, N. (2019). First order motion model for image animation. Advances in Neural Information Processing Systems, 32, 7137-7147.
-2. 
+2. https://www.faceapp.com/
