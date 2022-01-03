@@ -17,8 +17,9 @@ In this phase, a team is needed to capture images and generate fake images from 
 1. Collect samples of real images and 3-second videos of different subjects. Each image and video must exhibit face area of single person, positioned at centre position. No two teams should have same set of images/videos or images/videos of same subject. For each subject, maximum 50 images and 50 videos are allowed. 
 2. Generate deepfake videos and images through below given methods: 
    - **FOM**: First Order Motion Model [1] ([Here](https://colab.research.google.com/drive/1cniN2Tm9yqmZE6XfDtMzLVSouY1e7S7e?usp=sharing) is a colab file to generate data). Sample dataset is also provided with the code. For detailed information refer to original github: https://github.com/AliaksandrSiarohin/first-order-model
-
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/54838730/147690041-869fd427-2826-4c6b-9d45-1717c6fde1db.gif) ![equal drawio (3)](https://user-images.githubusercontent.com/54838730/147691508-3937a775-e4c9-4b41-b691-09ba404b3282.png) ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54838730/147690060-ca5c4822-d2af-4e11-a844-b0ce933360d9.gif)
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/54838730/147690041-869fd427-2826-4c6b-9d45-1717c6fde1db.gif" width="200" height="200"/> <img src= "https://user-images.githubusercontent.com/54838730/147691508-3937a775-e4c9-4b41-b691-09ba404b3282.png" width="350" height="200"/> <img src="https://user-images.githubusercontent.com/54838730/147690060-ca5c4822-d2af-4e11-a844-b0ce933360d9.gif" width="200" height="200"/>
+</p>
    - **FaceApp**:Install Mobile Application, FaceApp [2] and use feature FaceSwap there. Input different pairs of images as source and target image.
 
 <p align="center">
