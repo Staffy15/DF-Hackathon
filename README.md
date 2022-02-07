@@ -30,7 +30,7 @@ In this phase, a team is needed to capture images and generate fake images from 
 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
 
-### Second round: Deepfake Detection:
+<!-- ### Second round: Deepfake Detection:
 In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided [here](https://colab.research.google.com/drive/1gvWIA3YrpmQlOmCSDabMVcScM_nMAQWz?usp=sharing). A team can also create a new detection mechanism. Detailed steps are given as follows:
 1. From each video generated in FOM and originally captured ones, extract maximum of 5 frames.
 2. Generate two sets 
@@ -38,7 +38,7 @@ In this phase, selected teams from first round would have to train existing deep
    - **Dataset 2:** FaceApp + Real image dataset 
 3. Crop out the facial part from each image of both datasets using MTCNN classifier.
 4. Try every model with both datasets separately. Select the model and respective parameters that work well for both datasets separately.  
-5. Share the best trained models with final notebooks that contain results. We will test the trained model on private test set. Winner is selected based on the results on private test set.
+5. Share the best trained models with final notebooks that contain results. We will test the trained model on private test set. Winner is selected based on the results on private test set. -->
 
 ## Competition Rules:
 1. Maximum 4 members can join in a team. 
