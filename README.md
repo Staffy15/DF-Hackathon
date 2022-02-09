@@ -4,20 +4,19 @@ Hosted by DIC, UIET, Panjab University, Chandigarh
 
 (Start Date:           , End Date:      )
 
+Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD. Only registered participants will be able to see shared data.
+
 <hr>
 
 <p align="center">
   <a href="#Overview">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#Competition Stages">Competition Stages</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#man_office_worker-contributing">Contributing</a> &#xa0; | &#xa0;
-  <a href="https://github.com/muskaan712" target="_blank">Author</a>
+  <a href="#Competition Rules">Competition Rules</a> &#xa0; | &#xa0;
+  <a href="#References" >References</a>
 </p>
 
 <br>
-
-Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD. Only registered participants will be able to see shared data.
-
 
 ## Overview
 Deepfake refers to facially manipulated images and vidoes of people. The technology is growing fast and is a greatest threat to the dignity of common man. With advancement in AI technology, deepfake creation techniques are also improving. Since this creation and detection is a two-party game which is never going to end, we are organizing a competition to provide a benchmark this game between user-friendly generation techniques and most efficient detection techniques for the same. The outcome of this competition would be a set of Indian deepfakes which will help the research community and a detection technique for the generated dataset.
