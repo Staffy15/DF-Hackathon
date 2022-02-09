@@ -4,6 +4,18 @@ Hosted by DIC, UIET, Panjab University, Chandigarh
 
 (Start Date:           , End Date:      )
 
+<hr>
+
+<p align="center">
+  <a href="#Overview">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#man_office_worker-contributing">Contributing</a> &#xa0; | &#xa0;
+  <a href="https://github.com/muskaan712" target="_blank">Author</a>
+</p>
+
+<br>
+
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD. Only registered participants will be able to see shared data.
 
 
