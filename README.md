@@ -4,7 +4,7 @@ Hosted by DIC, UIET, Panjab University, Chandigarh
 
 (Start Date:           , End Date:      )
 
-Register [here](https://docs.google.com/forms/d/e/1FAIpQLSehAgpQJntM2EkUVoOtHEjkH6yKVr389HrKJWToTIYNH5lrBw/viewform?usp=sf_link) to participate in IDFD. Only registered participants will be able to see shared data.
+Register [here](https://dare2compete.com/p/idfd-challenge-265681) to participate in IDFD. Only registered participants will be able to see shared data.
 
 <hr>
 
