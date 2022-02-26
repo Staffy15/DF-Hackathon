@@ -1,10 +1,10 @@
-# IDFD-Challenge
-## Indian DeepFake Detection Challenge 
+# DeepFake Workshop cum Hackathon
+
 Hosted by DIC, UIET, Panjab University, Chandigarh
 
-(Start Date:           , End Date:      )
-
 Register [here](https://dare2compete.com/p/idfd-challenge-265681) to participate in IDFD. Only registered participants will be able to see shared data.
+Last date to register: 06-March-2022
+Tutorial Session on 05-March-2022 @ https://meet.google.com/wwh-tcag-myt
 
 <hr>
 
@@ -41,19 +41,18 @@ In this phase, a team is needed to capture images and generate fake images from 
 At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
 
 ### Second round: Deepfake Detection:
-In this phase, selected teams from first round would have to train existing deep learning models such as ResNet, XceptionNet on data generated in first round. A sample kernel is provided [here](https://colab.research.google.com/drive/1gvWIA3YrpmQlOmCSDabMVcScM_nMAQWz?usp=sharing). A team can also create a new detection mechanism. Detailed steps are given as follows:
+In this phase, selected teams from first round would have to train existing deep learning models on data generated in first round. A sample kernel is provided [here](https://colab.research.google.com/drive/1gvWIA3YrpmQlOmCSDabMVcScM_nMAQWz?usp=sharing). A team can also create a new detection mechanism. Detailed steps are given as follows:
 1. From each video generated in FOM and originally captured ones, extract maximum of 5 frames.
 2. Generate two sets 
    - **Dataset 1:** FOM + Real image dataset
    - **Dataset 2:** FaceApp + Real image dataset 
-3. Crop out the facial part from each image of both datasets using MTCNN classifier.
 4. Try every model with both datasets separately. Select the model and respective parameters that work well for both datasets separately.  
 5. Share the best trained models with final notebooks that contain results. We will test the trained model on private test set. Winner is selected based on the results on private test set.
 
 ## Competition_Rules:
 1. Maximum 4 members can join in a team. 
 2. This challenge exhibit two levels; performance of team is evaluated after each level and elimination is done accordingly. Top 50% teams from Level-2 would be admitted to Level-2. 
-3. Prize distribution would be there for winners of each level.
+3. Participation certificate will be provided.
 4. Atleast one team member should have knowledge of python language.
 
 
