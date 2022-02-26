@@ -54,6 +54,9 @@ In this phase, selected teams from first round would have to train existing deep
 2. This challenge exhibit two levels; performance of team is evaluated after each level and elimination is done accordingly. Top 50% teams from Level-2 would be admitted to Level-2. 
 3. Participation certificate will be provided.
 4. Atleast one team member should have knowledge of python language.
+5. In round 1,
+    - No two teams can submit same set of images/videos.
+    - No two teams can submit images/videos of same person.
 
 
 ## References
