@@ -5,6 +5,7 @@ Hosted by DIC, UIET, Panjab University, Chandigarh
 Register [here](https://dare2compete.com/p/idfd-challenge-265681) to participate in IDFD. Only registered participants will be able to see shared data.
 
 Last date to register: 06-March-2022
+
 Tutorial Session on 05-March-2022 @ https://meet.google.com/wwh-tcag-myt
 
 <hr>
