@@ -26,6 +26,7 @@ Deepfake refers to facially manipulated images and vidoes of people. The technol
 
 ### First round: Deepfake Creation:
 In this phase, a team is needed to capture images and generate fake images from them using the given code. 
+
 1.Collect samples of real images and 3-second videos of different subjects. Each image and video must contain face area of only one person, positioned at the centre position.  For each subject, a maximum of 50 images and 50 videos are allowed.
 - Themes for Image Sampling (compulsory to follow)- 
   - Inside room with room lights
