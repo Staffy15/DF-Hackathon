@@ -26,9 +26,18 @@ Deepfake refers to facially manipulated images and vidoes of people. The technol
 
 ### First round: Deepfake Creation:
 In this phase, a team is needed to capture images and generate fake images from them using the given code. 
-1. Collect samples of real images and 3-second videos of different subjects. Each image and video must exhibit face area of single person, positioned at centre position. No two teams should have same set of images/videos or images/videos of same subject. For each subject, maximum 50 images and 50 videos are allowed. 
+1.Collect samples of real images and 3-second videos of different subjects. Each image and video must contain face area of only one person, positioned at the centre position.  For each subject, a maximum of 50 images and 50 videos are allowed.
+- Themes for Image Sampling (compulsory to follow)- 
+  - Inside room with room lights
+  - Outside area with natural sunlight
+  - Inside room with dim lights
+  - Different age groups
+- Camera must be placed at a fixed position for video recording (mandatory).
+- Atleast 60% of face area in each frame of recorded video for FOM dataset (mandatory).
+
 2. Generate deepfake videos and images through below given methods: 
 - **FOM**: First Order Motion Model [1] ([Here](https://colab.research.google.com/drive/1cniN2Tm9yqmZE6XfDtMzLVSouY1e7S7e?usp=sharing) is a colab file to generate data). Sample dataset is also provided with the code. For detailed information refer to original github: https://github.com/AliaksandrSiarohin/first-order-model
+  -   Note that on the target image of each person, each driving video must be applied once.
 
 <p align="center">
 <img src = "https://user-images.githubusercontent.com/54838730/147690041-869fd427-2826-4c6b-9d45-1717c6fde1db.gif" width="200" height="200"/> <img src= "https://user-images.githubusercontent.com/54838730/147691508-3937a775-e4c9-4b41-b691-09ba404b3282.png" width="350" height="200"/> <img src="https://user-images.githubusercontent.com/54838730/147690060-ca5c4822-d2af-4e11-a844-b0ce933360d9.gif" width="200" height="200"/>
@@ -40,7 +49,7 @@ In this phase, a team is needed to capture images and generate fake images from 
   <img src="https://user-images.githubusercontent.com/54838730/147633573-414c347f-aca4-4335-97a9-c66e75226795.png" />
 </p>
 
-At Level 1, teams are evaluated on the basis of diversity and quantity of subjects captured and deepfaked.
+- Upload data on drive and share drive link during submission. Provide detailed information in a separate file. A sample submission file is provided on GitHub page (Here).
 
 ### Second round: Deepfake Detection:
 In this phase, selected teams from first round would have to train existing deep learning models on data generated in first round. A sample kernel is provided [here](https://colab.research.google.com/drive/1gvWIA3YrpmQlOmCSDabMVcScM_nMAQWz?usp=sharing). A team can also create a new detection mechanism. Detailed steps are given as follows:
